@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="TenrinhosApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Tenrinho Christmas 2k16</title>
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center title">
+                Tenrinhos Christmas 2k16
+            </h1>
+        </div>
+        <div ng-controller="TenrinhosController as tenr">
+            <div class="row text-center">
+                <h3 class="stitle">Esta é a aplicação Tenrinhos "Verify" ;P</h3>
+                
+                <br>
+                
+                <h4 class="stitle">Tenrinho insere aqui o teu Sobrenome
+                    <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+                </h4>
+                
+                <input type="text" class="form-control" ng-model="tenr.teste">
+                <h2>{{tenr.teste}}</h2>
+            
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
