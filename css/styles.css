@@ -1,3 +1,5 @@
+
+
 .title {
     font-family: 'Cookie', 'sans-serif';
     font-size: 10em;
@@ -6,5 +8,10 @@
 
 .stitle {
     font-family: 'Raleway', 'sans-serif';
-    
+}
+
+.s3title {
+    font-family: 'Raleway', 'sans-serif';
+    color: orangered;
+    line-height: 1.3em;
 }
